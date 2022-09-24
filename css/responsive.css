@@ -1,0 +1,176 @@
+@media (min-width: 1900px) {
+  body {
+    height: 100vh;
+    display: grid;
+    grid-template-areas:
+      "aside header"
+      "aside  main"
+      "aside  footer";
+    grid-template-columns: 1fr 2fr;
+    grid-template-rows: 15vh 70vh 15vh;
+    background-color: #efefef;
+    font-size: 1.5rem;
+    font-family: "Inter", sans-serif;
+    color: #000000;
+  }
+
+  header {
+    grid-area: header;
+    display: grid;
+    grid-template-columns: 1fr auto;
+  }
+
+  main {
+    grid-area: main;
+    display: grid;
+    grid-template-columns: 0.75fr 1fr 150px;
+  }
+
+  aside {
+    grid-area: aside;
+    background: linear-gradient(
+      174.44deg,
+      rgba(11, 11, 11, 0.95) -0.36%,
+      rgba(13, 13, 13, 0.855) 104.09%
+    );
+    background-blend-mode: darken;
+    display: grid;
+    grid-template-rows: 1fr auto;
+  }
+
+  footer {
+    grid-area: footer;
+    display: grid;
+    grid-template-columns: 1fr auto;
+  }
+}
+
+@media (min-width: 1420px) and (max-width: 1900px) {
+  #sneaker-nike {
+    width: 500px;
+    height: 500px;
+    left: 30px;
+    top: 170px;
+  }
+
+  #sneaker-nike-border {
+    width: 440px;
+    height: 440px;
+    left: 90px;
+    top: 130px;
+  }
+
+  #sneaker-nike-shadow {
+    width: 220px;
+    height: 100px;
+    left: 75px;
+    top: 440px;
+  }
+
+  footer {
+    display: none;
+  }
+}
+
+@media (min-width: 1350px) and (max-width: 1420px) {
+  header img {
+    display: none;
+  }
+
+  #sneaker-nike {
+    width: 500px;
+    height: 500px;
+    left: 30px;
+    top: 170px;
+  }
+
+  #sneaker-nike-border {
+    width: 440px;
+    height: 440px;
+    left: 90px;
+    top: 130px;
+  }
+
+  #sneaker-nike-shadow {
+    width: 220px;
+    height: 100px;
+    left: 75px;
+    top: 440px;
+  }
+
+  footer {
+    display: none;
+  }
+}
+
+@media (min-width: 690px) and (max-width: 1350px) {
+  header img {
+    display: none;
+  }
+
+  main {
+    display: grid;
+    grid-template-columns: 1fr;
+    margin-left: 30px;
+  }
+
+  #sneaker-nike {
+    display: none;
+  }
+
+  #sneaker-nike-border {
+    display: none;
+  }
+
+  #sneaker-nike-shadow {
+    display: none;
+  }
+
+  aside ul {
+    margin: 0 auto;
+  }
+
+  aside ul li {
+    margin: 10px;
+  }
+
+  footer {
+    display: none;
+  }
+}
+
+@media (max-width: 690px) {
+  header img {
+    display: none;
+  }
+
+  main {
+    display: grid;
+    grid-template-columns: 1fr;
+    margin-left: 30px;
+  }
+
+  main div {
+    margin-top: 45px;
+  }
+
+  #sneaker-nike {
+    display: none;
+  }
+
+  #sneaker-nike-border {
+    display: none;
+  }
+
+  #sneaker-nike-shadow {
+    display: none;
+  }
+
+  aside {
+    display: none;
+  }
+
+  footer {
+    display: none;
+  }
+}
