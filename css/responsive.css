@@ -104,6 +104,13 @@
 }
 
 @media (min-width: 690px) and (max-width: 1350px) {
+  /* header nav ul {
+    display: flex;
+    overflow-x: scroll;
+    word-wrap: normal;
+    max-width: 700px;
+  } */
+
   header img {
     display: none;
   }
@@ -127,11 +134,11 @@
   }
 
   aside ul {
-    margin: 0 auto;
+    margin: 0 auto !important;
   }
 
   aside ul li {
-    margin: 10px;
+    margin: 10px !important;
   }
 
   footer {
@@ -140,6 +147,17 @@
 }
 
 @media (max-width: 690px) {
+  body {
+    grid-template-columns: 1fr;
+  }
+
+  /* header nav ul {
+    display: flex;
+    overflow-x: scroll;
+    word-wrap: normal;
+    max-width: 600px;
+  } */
+
   header img {
     display: none;
   }
