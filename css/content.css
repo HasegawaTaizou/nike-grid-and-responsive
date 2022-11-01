@@ -37,3 +37,7 @@ button {
   color: white;
   letter-spacing: 0.5rem;
 }
+
+button:hover {
+  cursor: pointer;
+}

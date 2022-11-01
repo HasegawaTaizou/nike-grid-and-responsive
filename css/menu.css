@@ -19,6 +19,7 @@ header nav ul li + li {
 header nav ul li::after {
   content: url(../img/arrow-menu.png);
   padding-left: 8px;
+  cursor: pointer;
 }
 
 header nav ul li:last-child::after {
